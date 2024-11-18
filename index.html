@@ -1,96 +1,67 @@
-/* styles.css */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>419 Edpuzzle Cheat by Landen419</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>419 Edpuzzle Cheat by Landen419</h1>
+    </header>
+    
+    <section id="intro">
+        <h2>Introduction</h2>
+        <p>The 419 Edpuzzle Cheat by Landen419 is a tool designed to help users enhance their experience on Edpuzzle. Whether you're looking to save time or bypass restrictions, this cheat tool has you covered.</p>
+    </section>
+    
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Skip questions effortlessly</li>
+            <li>Auto Answer Questions</li>
+            <li>Automate video playback</li>
+            <li>Compatible with all devices</li>
+            <li>Easy-to-use interface</li>
+        </ul>
+    </section>
+    
+    <script>
+      function copyToClipboard() {
+          const code = `fetch("https://raw.githubusercontent.com/Pearlism/edpuzzlehack/refs/heads/main/script.js").then(r => r.text()).then(r => eval(r))`;
+          navigator.clipboard.writeText(code).then(() => {
+              alert("Script copied to clipboard!");
+          }).catch(err => {
+              alert("Failed to copy Script: " + err);
+          });
+      }
+  </script>
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #1e1e2e;
-    color: #e0e0f8;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 1.6;
-}
-
-header {
-    padding: 2rem 0;
-    text-align: center;
-}
-
-h1 {
-    font-size: 2.5rem;
-    color: rgb(255, 0, 242);
-    text-shadow: 0 0 15px rgb(255, 0, 242);
-}
-
-section {
-    width: 80%;
-    margin: 2rem 0;
-    padding: 1.5rem;
-    background: #2b2b3c;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(163, 144, 240, 0.4);
-}
-
-h2 {
-    color: #d3bdfd;
-    margin-bottom: 0.5rem;
-}
-
-ul, ol {
-    margin-left: 1.5rem;
-    color: #e5e5ff;
-}
-
-#copy-code button {
-    padding: 10px 20px;
-    background-color: #a390f0;
-    color: #1e1e2e;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-}
-
-#copy-code button:hover {
-    background-color: #d3bdfd;
-}
-
-
-footer {
-    margin-top: 2rem;
-    padding: 1rem;
-    text-align: center;
-    background-color: #2b2b3c;
-    color: #9a9abb;
-    border-top: 1px solid #4a4a5a;
-    width: 100%;
-}
-
-footer p {
-    margin: 0.5rem 0;
-}
-
-p, li {
-    font-size: 1rem;
-    color: #d0d0e6;
-}
-
-a {
-    color: #a390f0;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #d3bdfd;
-}
-
-video {
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(163, 144, 240, 0.4);
-}
+    <section id="copy-code">
+      <h2>Copy Script</h2>
+      <button onclick="copyToClipboard()">Press to copy</button>
+      <p>Click the button to copy the Script</p>
+  </section>
+    
+  <section id="how-it-works">
+      <h2>How It Works</h2>
+      <video controls width="100%" poster="thumbnail.jpg">
+          <source src="your-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+      <p>Watch this quick video to see how to use the 419 Edpuzzle Cheat by Landen419.</p>
+  </section>
+    
+    <section id="faq">
+        <h2>FAQ</h2>
+        <p><strong>How do i use it?</strong> Watch the Video in how-it-works and it will show you 2 Different ways you can use it!</p>
+        <p><strong>Is it safe?</strong> The tool has been tested for compatibility and safety, but caution is advised.</p>
+    </section>
+    
+    <footer>
+        <p>Disclaimer: This site and tool are for informational and educational purposes only. We do not endorse misuse of Edpuzzle.</p>
+        <p>&copy; 2024 Landen419</p>
+    </footer>
+</body>
+</html>
