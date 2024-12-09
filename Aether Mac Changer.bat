@@ -2,8 +2,6 @@
 title  discord.gg/Aether                                                    \\ AETHER MAC SPOOFER //
 setlocal EnableDelayedExpansion
 
-start https://discord.com/invite/aethercheats
-
 :: Check for admin rights
 net session >nul 2>&1
 if %errorlevel% neq 0 (
