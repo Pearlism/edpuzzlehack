@@ -1,5 +1,5 @@
 @echo off
-title  discord.gg/Aether                                                    \\ AETHER MAC SPOOFER //
+title  discord.gg/Aether                                                    \\ AETHER DISK SPOOFER //
 
 :: Check for administrative privileges
 net session >nul 2>&1
