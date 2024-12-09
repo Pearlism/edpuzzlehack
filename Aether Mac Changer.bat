@@ -192,5 +192,5 @@ for /f "tokens=2 delims=[]" %%A in ('wmic nic where "NetConnectionId='!NetworkAd
 )
 
 Successfully changed MAC.
-@reformed, @squidy for support/errors.
+@landen419, @squidy for support/errors.
 exit /b 0
